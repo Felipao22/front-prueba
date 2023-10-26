@@ -1,0 +1,11 @@
+.ant-input-disabled{
+color: white !important;
+}
+
+.card-container{
+    border-radius: 25px;
+    background-color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

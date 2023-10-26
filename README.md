@@ -14,7 +14,7 @@ vacíos antes de enviarlos al backend.
 4. Una vez que el usuario se logeo correctamente. Mostrar los datos y
 guardar la sesion.
 5. Listar las facturas que se devuelvan de EP de facturas. Puede
-agregar si desea un buscado y ordenar la lista.
+agregar si desea un buscador y ordenar la lista.
 
 Los puntos 1, 2, 3 y 4 son obligatorios. El 5 es opcional y se deja a su
 criterio la vista y el framework de CSS. Pudiendo usar Material UI,

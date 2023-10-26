@@ -1,9 +1,9 @@
 import axios from "axios";
 
-const apiBaseUrl = "http://localhost:3001"
+const apiBaseUrl = "http://localhost:3001";
 
 const apiClient = axios.create({
-  baseURL: apiBaseUrl
+  baseURL: apiBaseUrl,
 });
 
 export default apiClient;
