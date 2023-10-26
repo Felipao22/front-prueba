@@ -1,8 +1,8 @@
 import { Card, Col, Input, Row } from "antd";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import apiClient from "../utils/client";
-import { setUser } from "../utils/sessionStorage";
+import apiClient from "../../utils/client";
+import { setUser } from "../../utils/sessionStorage";
 
 export const Login = () => {
   const initialValues = {
@@ -121,10 +121,7 @@ export const Login = () => {
                     </small>
                   )}
                 </label>
-                <button
-                  style={{ maxWidth: "100px", marginTop: "20px" }}
-                  type="submit"
-                >
+                <button style={{ marginTop: "20px" }} type="submit">
                   Ingresar
                 </button>
               </form>

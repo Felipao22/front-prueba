@@ -1,7 +1,7 @@
 import { Card, Col, Form, Input, Row } from "antd";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import apiClient from "../utils/client";
+import apiClient from "../../utils/client";
 
 export const Register = () => {
   const initialValues = {
@@ -224,7 +224,6 @@ export const Register = () => {
                 )}
                 <button
                   style={{
-                    maxWidth: "100px",
                     marginTop: "20px",
                     backgroundColor: "blue",
                   }}
